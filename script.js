@@ -15,5 +15,21 @@ const volumeValueEl = document.getElementById("volume-value");
 const massValueEl = document.getElementById("mass-value");
 
 convertBtnEl.addEventListener("click", function () {
-  console.log(unitInputEl.value);
+  lengthValueEl.innerHTML = `${unitInputEl.value} meters = ${
+    meterToFeet * unitInputEl.value
+  } feet | ${unitInputEl.value} feet = ${
+    unitInputEl.value / meterToFeet
+  } meters  `;
+
+  volumeValueEl.innerHTML = `${unitInputEl.value} liters = ${
+    literToGallon * unitInputEl.value
+  } gallons | ${unitInputEl.value} gallons = ${
+    unitInputEl.value / literToGallon
+  }`;
+
+  massValueEl.innerHTML = `${unitInputEl.value} kilos = ${
+    unitInputEl.value * kilogramToPound
+  } pounds | ${unitInputEl.value} pounds = ${
+    unitInputEl.value / kilogramToPound
+  }`;
 });
