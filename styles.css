@@ -1,3 +1,40 @@
-body {
-  background-color: aqua;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+}
+
+.input--section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+h1 {
+  padding-bottom: 20px;
+}
+.unit--input {
+  width: 80px;
+  height: 60px;
+}
+
+.convert-btn {
+  width: 80px;
+  margin: 10px;
+}
+
+.convert--section {
+  padding-top: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 20px;
 }
