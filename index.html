@@ -7,6 +7,29 @@
     <title>Unit Converter</title>
   </head>
   <body>
+    <main>
+      <section id="input-section">
+        <h1>Metric / Imperial Unit Conversion</h1>
+        <label for="unit-input">Current Value:</label>
+        <input type="number" name="unit-input" id="unit-input" />
+        <button id="convert-btn">Convert</button>
+      </section>
+
+      <section id="convert-section">
+        <ul>
+          <li>
+            <p id="length-value">Length (Meter / Feet)</p>
+          </li>
+          <li>
+            <p id="volume-value">Volume (Liters / Gallons)</p>
+          </li>
+          <li>
+            <p id="mass-value">Mass (Kilograms / Pounds)</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
     <script src="script.js"></script>
   </body>
 </html>
