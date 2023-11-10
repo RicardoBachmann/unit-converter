@@ -32,9 +32,14 @@ h1 {
   padding-top: 20px;
 }
 
-li {
+ul {
+  margin: auto;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+
+li {
+  margin: auto;
   list-style: none;
   padding: 20px;
 }
