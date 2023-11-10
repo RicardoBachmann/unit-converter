@@ -17,22 +17,20 @@
           id="unit-input"
           class="unit--input"
         />
-        <button id="convert-btn" class="convert-btn">Convert</button>
+        <button id="convert-btn" class="convert-btn" onclick="renderUnits()">
+          Convert
+        </button>
       </section>
 
       <section id="convert-section" class="convert--section">
-        <ul>
-          <li>
-            <span>Length (Meter / Feet)</span>
-            <p id="length-value"></p>
-          </li>
-          <li>
-            <p id="volume-value">Volume (Liters / Gallons)</p>
-          </li>
-          <li>
-            <p id="mass-value">Mass (Kilograms / Pounds)</p>
-          </li>
-        </ul>
+        <div class="items--center">
+          <h2>Length (Meter / Feet)</h2>
+          <p id="length-value">0 meters = 0.000 feet</p>
+          <h2>Volume (Liters / Gallons)</h2>
+          <p id="volume-value">0 meters = 0.000 feet</p>
+          <h2>Mass (Kilograms / Pounds)</h2>
+          <p id="mass-value">0 meters = 0.000 feet</p>
+        </div>
       </section>
     </main>
 
