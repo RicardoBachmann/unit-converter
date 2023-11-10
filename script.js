@@ -13,6 +13,7 @@ const massValueEl = document.getElementById("mass-value");
 
 function renderUnits() {
   initialValue = unitInputEl.value;
+  unitInputEl.value = "";
   convertLength();
   convertVolume();
   convertMass();
